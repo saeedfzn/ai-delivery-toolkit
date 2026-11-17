@@ -1,0 +1,522 @@
+{"ts": "2026-10-05T08:20:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 3787, "output_tokens": 1184, "outcome": "edited"}
+{"ts": "2026-10-05T08:20:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 2657, "output_tokens": 2030, "outcome": "rejected"}
+{"ts": "2026-10-05T09:06:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3096, "output_tokens": 1735, "outcome": "accepted"}
+{"ts": "2026-10-05T09:08:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2773, "output_tokens": 1361, "outcome": "accepted"}
+{"ts": "2026-10-05T10:12:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 1856, "output_tokens": 462, "outcome": "accepted"}
+{"ts": "2026-10-05T11:53:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 3732, "output_tokens": 854, "outcome": "accepted"}
+{"ts": "2026-10-05T14:23:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7939, "output_tokens": 1604, "outcome": "accepted"}
+{"ts": "2026-10-05T16:34:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7070, "output_tokens": 2046, "outcome": "edited"}
+{"ts": "2026-10-05T16:44:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2107, "output_tokens": 837, "outcome": "accepted"}
+{"ts": "2026-10-06T08:10:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 5976, "output_tokens": 1850, "outcome": "edited"}
+{"ts": "2026-10-06T08:14:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3448, "output_tokens": 603, "outcome": "accepted"}
+{"ts": "2026-10-06T08:46:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 1405, "output_tokens": 1690, "outcome": "accepted"}
+{"ts": "2026-10-06T08:58:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8029, "output_tokens": 1226, "outcome": "rejected"}
+{"ts": "2026-10-06T12:21:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 3522, "output_tokens": 1583, "outcome": "accepted"}
+{"ts": "2026-10-06T12:51:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 2872, "output_tokens": 650, "outcome": "edited"}
+{"ts": "2026-10-06T12:54:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 8390, "output_tokens": 1511, "outcome": "accepted"}
+{"ts": "2026-10-06T13:21:00Z", "user": "u-025", "team": "Service Design", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 6612, "output_tokens": 1841, "outcome": "accepted"}
+{"ts": "2026-10-06T13:29:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6593, "output_tokens": 1351, "outcome": "accepted"}
+{"ts": "2026-10-06T14:35:00Z", "user": "u-017", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 2118, "output_tokens": 1391, "outcome": "accepted"}
+{"ts": "2026-10-07T10:18:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 1656, "output_tokens": 925, "outcome": "accepted"}
+{"ts": "2026-10-07T12:17:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 4267, "output_tokens": 1038, "outcome": "rejected"}
+{"ts": "2026-10-07T13:44:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 8451, "output_tokens": 1224, "outcome": "accepted"}
+{"ts": "2026-10-07T14:44:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 4049, "output_tokens": 608, "outcome": "accepted"}
+{"ts": "2026-10-07T17:20:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4216, "output_tokens": 1250, "outcome": "accepted"}
+{"ts": "2026-10-08T10:31:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8582, "output_tokens": 1523, "outcome": "accepted"}
+{"ts": "2026-10-08T11:12:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 5700, "output_tokens": 1225, "outcome": "accepted"}
+{"ts": "2026-10-08T12:47:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 1521, "output_tokens": 939, "outcome": "accepted"}
+{"ts": "2026-10-08T13:54:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 8154, "output_tokens": 1290, "outcome": "rejected"}
+{"ts": "2026-10-08T14:39:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1644, "output_tokens": 962, "outcome": "accepted"}
+{"ts": "2026-10-08T14:54:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 5292, "output_tokens": 212, "outcome": "rejected"}
+{"ts": "2026-10-08T17:32:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 8795, "output_tokens": 989, "outcome": "edited"}
+{"ts": "2026-10-09T08:17:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 4843, "output_tokens": 1780, "outcome": "rejected"}
+{"ts": "2026-10-09T08:32:00Z", "user": "u-010", "team": "Team Heron", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 8328, "output_tokens": 962, "outcome": "accepted"}
+{"ts": "2026-10-09T08:55:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3447, "output_tokens": 1033, "outcome": "accepted"}
+{"ts": "2026-10-09T10:12:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 1668, "output_tokens": 1640, "outcome": "accepted"}
+{"ts": "2026-10-09T10:37:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3978, "output_tokens": 547, "outcome": "rejected"}
+{"ts": "2026-10-09T10:39:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3312, "output_tokens": 1041, "outcome": "accepted"}
+{"ts": "2026-10-09T11:21:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1165, "output_tokens": 1201, "outcome": "accepted"}
+{"ts": "2026-10-09T11:48:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1427, "output_tokens": 182, "outcome": "accepted"}
+{"ts": "2026-10-09T13:40:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3862, "output_tokens": 1252, "outcome": "rejected"}
+{"ts": "2026-10-09T14:03:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3054, "output_tokens": 577, "outcome": "accepted"}
+{"ts": "2026-10-09T14:14:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8582, "output_tokens": 708, "outcome": "accepted"}
+{"ts": "2026-10-09T14:30:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5743, "output_tokens": 702, "outcome": "edited"}
+{"ts": "2026-10-09T14:52:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4178, "output_tokens": 2062, "outcome": "accepted"}
+{"ts": "2026-10-09T15:05:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 3909, "output_tokens": 738, "outcome": "edited"}
+{"ts": "2026-10-09T16:03:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5297, "output_tokens": 1902, "outcome": "accepted"}
+{"ts": "2026-10-09T17:01:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 7753, "output_tokens": 1149, "outcome": "rejected"}
+{"ts": "2026-10-12T12:03:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3037, "output_tokens": 1027, "outcome": "accepted"}
+{"ts": "2026-10-12T12:49:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 2033, "output_tokens": 2148, "outcome": "accepted"}
+{"ts": "2026-10-12T13:55:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 3771, "output_tokens": 1016, "outcome": "accepted"}
+{"ts": "2026-10-12T14:31:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6227, "output_tokens": 1977, "outcome": "edited"}
+{"ts": "2026-10-12T15:56:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 7246, "output_tokens": 1191, "outcome": "accepted"}
+{"ts": "2026-10-12T16:20:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 7890, "output_tokens": 757, "outcome": "rejected"}
+{"ts": "2026-10-12T16:27:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6333, "output_tokens": 1524, "outcome": "edited"}
+{"ts": "2026-10-13T11:24:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2633, "output_tokens": 2027, "outcome": "accepted"}
+{"ts": "2026-10-13T13:47:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 3347, "output_tokens": 1621, "outcome": "edited"}
+{"ts": "2026-10-13T16:51:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 7270, "output_tokens": 484, "outcome": "edited"}
+{"ts": "2026-10-14T12:59:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 6395, "output_tokens": 1884, "outcome": "accepted"}
+{"ts": "2026-10-14T14:06:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5438, "output_tokens": 1055, "outcome": "rejected"}
+{"ts": "2026-10-14T15:07:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4131, "output_tokens": 1113, "outcome": "accepted"}
+{"ts": "2026-10-14T15:49:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 4658, "output_tokens": 1449, "outcome": "edited"}
+{"ts": "2026-10-15T08:10:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 6413, "output_tokens": 1896, "outcome": "accepted"}
+{"ts": "2026-10-15T10:05:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 8539, "output_tokens": 1064, "outcome": "accepted"}
+{"ts": "2026-10-15T11:06:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 4636, "output_tokens": 1916, "outcome": "rejected"}
+{"ts": "2026-10-15T12:40:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 1475, "output_tokens": 622, "outcome": "edited"}
+{"ts": "2026-10-15T13:16:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1913, "output_tokens": 2031, "outcome": "edited"}
+{"ts": "2026-10-15T13:50:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 6968, "output_tokens": 1994, "outcome": "accepted"}
+{"ts": "2026-10-15T14:42:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 1683, "output_tokens": 1962, "outcome": "accepted"}
+{"ts": "2026-10-16T08:59:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 6208, "output_tokens": 678, "outcome": "edited"}
+{"ts": "2026-10-16T09:11:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 6252, "output_tokens": 183, "outcome": "accepted"}
+{"ts": "2026-10-16T11:52:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2616, "output_tokens": 1708, "outcome": "accepted"}
+{"ts": "2026-10-16T11:56:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 8461, "output_tokens": 1804, "outcome": "edited"}
+{"ts": "2026-10-16T12:34:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 8923, "output_tokens": 1145, "outcome": "rejected"}
+{"ts": "2026-10-16T14:28:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 5780, "output_tokens": 1575, "outcome": "edited"}
+{"ts": "2026-10-16T15:31:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 6775, "output_tokens": 1276, "outcome": "accepted"}
+{"ts": "2026-10-16T17:47:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 7990, "output_tokens": 1425, "outcome": "accepted"}
+{"ts": "2026-10-19T08:01:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5746, "output_tokens": 381, "outcome": "edited"}
+{"ts": "2026-10-19T11:08:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4983, "output_tokens": 550, "outcome": "edited"}
+{"ts": "2026-10-19T13:23:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 7705, "output_tokens": 206, "outcome": "accepted"}
+{"ts": "2026-10-19T13:27:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6635, "output_tokens": 1824, "outcome": "edited"}
+{"ts": "2026-10-19T14:15:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 8867, "output_tokens": 198, "outcome": "edited"}
+{"ts": "2026-10-19T15:52:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2806, "output_tokens": 388, "outcome": "accepted"}
+{"ts": "2026-10-19T16:55:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2085, "output_tokens": 1332, "outcome": "edited"}
+{"ts": "2026-10-19T17:46:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 3696, "output_tokens": 1647, "outcome": "accepted"}
+{"ts": "2026-10-19T17:49:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 7022, "output_tokens": 641, "outcome": "accepted"}
+{"ts": "2026-10-19T17:59:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7455, "output_tokens": 1461, "outcome": "accepted"}
+{"ts": "2026-10-20T09:13:00Z", "user": "u-024", "team": "Service Design", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 4741, "output_tokens": 925, "outcome": "accepted"}
+{"ts": "2026-10-20T09:44:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 2065, "output_tokens": 914, "outcome": "rejected"}
+{"ts": "2026-10-20T11:00:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 1511, "output_tokens": 1031, "outcome": "edited"}
+{"ts": "2026-10-20T11:09:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 4996, "output_tokens": 594, "outcome": "accepted"}
+{"ts": "2026-10-20T11:16:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6225, "output_tokens": 1210, "outcome": "accepted"}
+{"ts": "2026-10-20T11:59:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8147, "output_tokens": 387, "outcome": "edited"}
+{"ts": "2026-10-20T12:22:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7085, "output_tokens": 923, "outcome": "edited"}
+{"ts": "2026-10-20T13:02:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 7625, "output_tokens": 819, "outcome": "accepted"}
+{"ts": "2026-10-20T13:07:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 1775, "output_tokens": 1397, "outcome": "accepted"}
+{"ts": "2026-10-20T13:16:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 2332, "output_tokens": 571, "outcome": "accepted"}
+{"ts": "2026-10-20T13:35:00Z", "user": "u-013", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 7604, "output_tokens": 1269, "outcome": "accepted"}
+{"ts": "2026-10-20T14:16:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4932, "output_tokens": 962, "outcome": "edited"}
+{"ts": "2026-10-20T14:28:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2208, "output_tokens": 1136, "outcome": "edited"}
+{"ts": "2026-10-20T14:57:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 2014, "output_tokens": 347, "outcome": "edited"}
+{"ts": "2026-10-20T17:19:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 7393, "output_tokens": 889, "outcome": "accepted"}
+{"ts": "2026-10-20T17:37:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 2851, "output_tokens": 1727, "outcome": "rejected"}
+{"ts": "2026-10-21T08:00:00Z", "user": "u-024", "team": "Service Design", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1039, "output_tokens": 1056, "outcome": "rejected"}
+{"ts": "2026-10-21T08:09:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 6540, "output_tokens": 269, "outcome": "edited"}
+{"ts": "2026-10-21T09:21:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3246, "output_tokens": 2175, "outcome": "rejected"}
+{"ts": "2026-10-21T09:56:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 3253, "output_tokens": 1561, "outcome": "edited"}
+{"ts": "2026-10-21T10:01:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7808, "output_tokens": 1328, "outcome": "accepted"}
+{"ts": "2026-10-21T10:35:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 7187, "output_tokens": 2082, "outcome": "rejected"}
+{"ts": "2026-10-21T10:52:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7940, "output_tokens": 2056, "outcome": "accepted"}
+{"ts": "2026-10-21T11:34:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2293, "output_tokens": 407, "outcome": "accepted"}
+{"ts": "2026-10-21T12:20:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8034, "output_tokens": 814, "outcome": "edited"}
+{"ts": "2026-10-21T13:04:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 2001, "output_tokens": 2044, "outcome": "accepted"}
+{"ts": "2026-10-21T13:06:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 4658, "output_tokens": 402, "outcome": "accepted"}
+{"ts": "2026-10-21T13:26:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 1179, "output_tokens": 1357, "outcome": "edited"}
+{"ts": "2026-10-21T14:51:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5504, "output_tokens": 253, "outcome": "accepted"}
+{"ts": "2026-10-21T16:16:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 5675, "output_tokens": 512, "outcome": "accepted"}
+{"ts": "2026-10-21T16:22:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 1083, "output_tokens": 646, "outcome": "accepted"}
+{"ts": "2026-10-22T09:29:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5422, "output_tokens": 2197, "outcome": "accepted"}
+{"ts": "2026-10-22T09:46:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 5662, "output_tokens": 739, "outcome": "rejected"}
+{"ts": "2026-10-22T10:51:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 4242, "output_tokens": 939, "outcome": "edited"}
+{"ts": "2026-10-22T14:27:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1640, "output_tokens": 633, "outcome": "edited"}
+{"ts": "2026-10-22T15:12:00Z", "user": "u-029", "team": "Service Design", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1997, "output_tokens": 1664, "outcome": "accepted"}
+{"ts": "2026-10-22T15:16:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 2909, "output_tokens": 622, "outcome": "edited"}
+{"ts": "2026-10-22T15:46:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5708, "output_tokens": 1573, "outcome": "accepted"}
+{"ts": "2026-10-22T15:55:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 4258, "output_tokens": 248, "outcome": "edited"}
+{"ts": "2026-10-22T17:20:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 2420, "output_tokens": 1473, "outcome": "accepted"}
+{"ts": "2026-10-22T17:20:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7913, "output_tokens": 2010, "outcome": "edited"}
+{"ts": "2026-10-23T09:26:00Z", "user": "u-027", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 8418, "output_tokens": 2147, "outcome": "accepted"}
+{"ts": "2026-10-23T10:39:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 6087, "output_tokens": 165, "outcome": "edited"}
+{"ts": "2026-10-23T10:54:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 7763, "output_tokens": 625, "outcome": "accepted"}
+{"ts": "2026-10-23T11:27:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2942, "output_tokens": 2193, "outcome": "accepted"}
+{"ts": "2026-10-23T12:05:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 6035, "output_tokens": 775, "outcome": "edited"}
+{"ts": "2026-10-23T12:49:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2460, "output_tokens": 189, "outcome": "accepted"}
+{"ts": "2026-10-23T14:21:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 4620, "output_tokens": 1689, "outcome": "edited"}
+{"ts": "2026-10-23T14:51:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3076, "output_tokens": 1234, "outcome": "rejected"}
+{"ts": "2026-10-23T15:31:00Z", "user": "u-029", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8110, "output_tokens": 488, "outcome": "accepted"}
+{"ts": "2026-10-23T17:50:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 3689, "output_tokens": 1965, "outcome": "edited"}
+{"ts": "2026-10-23T17:57:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 5063, "output_tokens": 2129, "outcome": "accepted"}
+{"ts": "2026-10-26T08:01:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2852, "output_tokens": 1348, "outcome": "edited"}
+{"ts": "2026-10-26T08:52:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 5253, "output_tokens": 1983, "outcome": "edited"}
+{"ts": "2026-10-26T09:42:00Z", "user": "u-019", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 5959, "output_tokens": 1807, "outcome": "rejected"}
+{"ts": "2026-10-26T10:40:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 6404, "output_tokens": 1576, "outcome": "rejected"}
+{"ts": "2026-10-26T11:16:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7161, "output_tokens": 1746, "outcome": "rejected"}
+{"ts": "2026-10-26T11:23:00Z", "user": "u-021", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3347, "output_tokens": 970, "outcome": "edited"}
+{"ts": "2026-10-26T12:13:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1031, "output_tokens": 1156, "outcome": "edited"}
+{"ts": "2026-10-26T12:16:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5969, "output_tokens": 1263, "outcome": "rejected"}
+{"ts": "2026-10-26T13:11:00Z", "user": "u-021", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8401, "output_tokens": 1323, "outcome": "edited"}
+{"ts": "2026-10-26T13:34:00Z", "user": "u-028", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7202, "output_tokens": 1073, "outcome": "accepted"}
+{"ts": "2026-10-26T13:37:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 6606, "output_tokens": 220, "outcome": "accepted"}
+{"ts": "2026-10-26T14:12:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6492, "output_tokens": 539, "outcome": "accepted"}
+{"ts": "2026-10-26T14:36:00Z", "user": "u-024", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 8175, "output_tokens": 1753, "outcome": "rejected"}
+{"ts": "2026-10-26T15:27:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 6201, "output_tokens": 271, "outcome": "edited"}
+{"ts": "2026-10-26T15:34:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 4848, "output_tokens": 202, "outcome": "edited"}
+{"ts": "2026-10-26T15:37:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 2823, "output_tokens": 1273, "outcome": "edited"}
+{"ts": "2026-10-26T15:49:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7998, "output_tokens": 1299, "outcome": "edited"}
+{"ts": "2026-10-26T15:52:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7221, "output_tokens": 1528, "outcome": "accepted"}
+{"ts": "2026-10-26T16:09:00Z", "user": "u-019", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2549, "output_tokens": 507, "outcome": "accepted"}
+{"ts": "2026-10-26T16:59:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 5016, "output_tokens": 217, "outcome": "rejected"}
+{"ts": "2026-10-26T17:14:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 8397, "output_tokens": 1380, "outcome": "accepted"}
+{"ts": "2026-10-27T09:21:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 5067, "output_tokens": 1702, "outcome": "accepted"}
+{"ts": "2026-10-27T09:32:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6466, "output_tokens": 2180, "outcome": "accepted"}
+{"ts": "2026-10-27T09:51:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6047, "output_tokens": 772, "outcome": "accepted"}
+{"ts": "2026-10-27T10:16:00Z", "user": "u-019", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 6929, "output_tokens": 320, "outcome": "rejected"}
+{"ts": "2026-10-27T11:33:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 4706, "output_tokens": 1823, "outcome": "edited"}
+{"ts": "2026-10-27T11:42:00Z", "user": "u-019", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8253, "output_tokens": 1758, "outcome": "edited"}
+{"ts": "2026-10-27T12:42:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8480, "output_tokens": 1041, "outcome": "rejected"}
+{"ts": "2026-10-27T12:53:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 4446, "output_tokens": 1836, "outcome": "accepted"}
+{"ts": "2026-10-27T13:15:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8056, "output_tokens": 272, "outcome": "accepted"}
+{"ts": "2026-10-27T13:27:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2940, "output_tokens": 984, "outcome": "edited"}
+{"ts": "2026-10-27T15:09:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7527, "output_tokens": 1846, "outcome": "accepted"}
+{"ts": "2026-10-27T15:30:00Z", "user": "u-019", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 7882, "output_tokens": 1415, "outcome": "accepted"}
+{"ts": "2026-10-27T15:40:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1239, "output_tokens": 1917, "outcome": "accepted"}
+{"ts": "2026-10-27T16:13:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 6140, "output_tokens": 1257, "outcome": "accepted"}
+{"ts": "2026-10-27T16:14:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7206, "output_tokens": 1355, "outcome": "accepted"}
+{"ts": "2026-10-27T17:02:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 8440, "output_tokens": 1901, "outcome": "edited"}
+{"ts": "2026-10-27T17:28:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 7899, "output_tokens": 353, "outcome": "edited"}
+{"ts": "2026-10-27T17:46:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 1048, "output_tokens": 1719, "outcome": "edited"}
+{"ts": "2026-10-27T17:49:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 5786, "output_tokens": 975, "outcome": "accepted"}
+{"ts": "2026-10-27T17:55:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 2229, "output_tokens": 1856, "outcome": "accepted"}
+{"ts": "2026-10-28T08:21:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 2004, "output_tokens": 1032, "outcome": "accepted"}
+{"ts": "2026-10-28T08:29:00Z", "user": "u-017", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3174, "output_tokens": 436, "outcome": "accepted"}
+{"ts": "2026-10-28T08:44:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6127, "output_tokens": 1508, "outcome": "edited"}
+{"ts": "2026-10-28T09:04:00Z", "user": "u-028", "team": "Service Design", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 4412, "output_tokens": 1461, "outcome": "accepted"}
+{"ts": "2026-10-28T09:37:00Z", "user": "u-010", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 8081, "output_tokens": 1126, "outcome": "accepted"}
+{"ts": "2026-10-28T10:03:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 2810, "output_tokens": 940, "outcome": "accepted"}
+{"ts": "2026-10-28T10:08:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6862, "output_tokens": 466, "outcome": "accepted"}
+{"ts": "2026-10-28T10:10:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 854, "output_tokens": 1903, "outcome": "accepted"}
+{"ts": "2026-10-28T10:51:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8428, "output_tokens": 1820, "outcome": "accepted"}
+{"ts": "2026-10-28T11:49:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 801, "output_tokens": 821, "outcome": "accepted"}
+{"ts": "2026-10-28T11:51:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 813, "output_tokens": 819, "outcome": "edited"}
+{"ts": "2026-10-28T12:09:00Z", "user": "u-013", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 4885, "output_tokens": 1930, "outcome": "edited"}
+{"ts": "2026-10-28T12:23:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1570, "output_tokens": 1953, "outcome": "accepted"}
+{"ts": "2026-10-28T12:34:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 2225, "output_tokens": 787, "outcome": "accepted"}
+{"ts": "2026-10-28T12:52:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1244, "output_tokens": 1386, "outcome": "accepted"}
+{"ts": "2026-10-28T12:53:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2521, "output_tokens": 925, "outcome": "accepted"}
+{"ts": "2026-10-28T13:18:00Z", "user": "u-024", "team": "Service Design", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 3987, "output_tokens": 1642, "outcome": "accepted"}
+{"ts": "2026-10-28T13:19:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1847, "output_tokens": 470, "outcome": "rejected"}
+{"ts": "2026-10-28T14:01:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 4393, "output_tokens": 1312, "outcome": "accepted"}
+{"ts": "2026-10-28T14:05:00Z", "user": "u-019", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 2145, "output_tokens": 1074, "outcome": "accepted"}
+{"ts": "2026-10-28T14:37:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 4082, "output_tokens": 1227, "outcome": "accepted"}
+{"ts": "2026-10-28T15:11:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6118, "output_tokens": 1807, "outcome": "edited"}
+{"ts": "2026-10-28T16:33:00Z", "user": "u-010", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 3621, "output_tokens": 632, "outcome": "edited"}
+{"ts": "2026-10-28T16:41:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 3543, "output_tokens": 204, "outcome": "accepted"}
+{"ts": "2026-10-28T17:36:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 7527, "output_tokens": 325, "outcome": "rejected"}
+{"ts": "2026-10-28T17:44:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6638, "output_tokens": 934, "outcome": "accepted"}
+{"ts": "2026-10-29T08:05:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3993, "output_tokens": 1279, "outcome": "accepted"}
+{"ts": "2026-10-29T08:22:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6202, "output_tokens": 1275, "outcome": "rejected"}
+{"ts": "2026-10-29T08:50:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 8962, "output_tokens": 494, "outcome": "accepted"}
+{"ts": "2026-10-29T10:12:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 7336, "output_tokens": 576, "outcome": "accepted"}
+{"ts": "2026-10-29T11:11:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 3511, "output_tokens": 344, "outcome": "accepted"}
+{"ts": "2026-10-29T11:51:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6346, "output_tokens": 810, "outcome": "accepted"}
+{"ts": "2026-10-29T12:34:00Z", "user": "u-028", "team": "Service Design", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3870, "output_tokens": 1589, "outcome": "edited"}
+{"ts": "2026-10-29T13:12:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3930, "output_tokens": 1252, "outcome": "edited"}
+{"ts": "2026-10-29T13:42:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 7596, "output_tokens": 403, "outcome": "accepted"}
+{"ts": "2026-10-29T14:11:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 3101, "output_tokens": 305, "outcome": "accepted"}
+{"ts": "2026-10-29T14:36:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 3583, "output_tokens": 1314, "outcome": "rejected"}
+{"ts": "2026-10-29T14:49:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 1990, "output_tokens": 1845, "outcome": "edited"}
+{"ts": "2026-10-29T14:58:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 1729, "output_tokens": 549, "outcome": "edited"}
+{"ts": "2026-10-29T15:08:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3701, "output_tokens": 444, "outcome": "accepted"}
+{"ts": "2026-10-29T15:08:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6702, "output_tokens": 626, "outcome": "edited"}
+{"ts": "2026-10-29T15:36:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 6624, "output_tokens": 1864, "outcome": "edited"}
+{"ts": "2026-10-29T16:37:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 7596, "output_tokens": 416, "outcome": "accepted"}
+{"ts": "2026-10-29T17:00:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 4389, "output_tokens": 1890, "outcome": "accepted"}
+{"ts": "2026-10-29T17:09:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7090, "output_tokens": 1367, "outcome": "accepted"}
+{"ts": "2026-10-29T17:15:00Z", "user": "u-013", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 5780, "output_tokens": 1960, "outcome": "accepted"}
+{"ts": "2026-10-29T17:32:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7312, "output_tokens": 1604, "outcome": "edited"}
+{"ts": "2026-10-29T17:47:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 1930, "output_tokens": 1846, "outcome": "edited"}
+{"ts": "2026-10-29T17:57:00Z", "user": "u-019", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 4415, "output_tokens": 931, "outcome": "accepted"}
+{"ts": "2026-10-30T08:03:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 6854, "output_tokens": 1047, "outcome": "edited"}
+{"ts": "2026-10-30T08:04:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 1990, "output_tokens": 1130, "outcome": "accepted"}
+{"ts": "2026-10-30T09:22:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 6213, "output_tokens": 1400, "outcome": "edited"}
+{"ts": "2026-10-30T09:59:00Z", "user": "u-028", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 977, "output_tokens": 1869, "outcome": "accepted"}
+{"ts": "2026-10-30T10:01:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 3136, "output_tokens": 2092, "outcome": "accepted"}
+{"ts": "2026-10-30T10:30:00Z", "user": "u-028", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2930, "output_tokens": 1955, "outcome": "accepted"}
+{"ts": "2026-10-30T10:53:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 2670, "output_tokens": 1539, "outcome": "edited"}
+{"ts": "2026-10-30T11:25:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 8076, "output_tokens": 678, "outcome": "rejected"}
+{"ts": "2026-10-30T11:51:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 5219, "output_tokens": 278, "outcome": "rejected"}
+{"ts": "2026-10-30T12:14:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 4962, "output_tokens": 1694, "outcome": "edited"}
+{"ts": "2026-10-30T13:27:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 5607, "output_tokens": 1738, "outcome": "edited"}
+{"ts": "2026-10-30T13:28:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7807, "output_tokens": 625, "outcome": "accepted"}
+{"ts": "2026-10-30T13:36:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 5338, "output_tokens": 2103, "outcome": "accepted"}
+{"ts": "2026-10-30T13:57:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 2164, "output_tokens": 308, "outcome": "edited"}
+{"ts": "2026-10-30T14:07:00Z", "user": "u-028", "team": "Service Design", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 5405, "output_tokens": 1794, "outcome": "rejected"}
+{"ts": "2026-10-30T14:44:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 8643, "output_tokens": 1241, "outcome": "accepted"}
+{"ts": "2026-10-30T16:09:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6257, "output_tokens": 586, "outcome": "accepted"}
+{"ts": "2026-10-30T16:34:00Z", "user": "u-021", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 1942, "output_tokens": 1116, "outcome": "edited"}
+{"ts": "2026-10-30T17:21:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7357, "output_tokens": 895, "outcome": "accepted"}
+{"ts": "2026-10-30T17:25:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8183, "output_tokens": 1465, "outcome": "accepted"}
+{"ts": "2026-10-30T17:58:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6683, "output_tokens": 202, "outcome": "accepted"}
+{"ts": "2026-11-02T08:01:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4276, "output_tokens": 460, "outcome": "accepted"}
+{"ts": "2026-11-02T08:12:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 7866, "output_tokens": 1391, "outcome": "accepted"}
+{"ts": "2026-11-02T08:15:00Z", "user": "u-011", "team": "Team Heron", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 3466, "output_tokens": 527, "outcome": "edited"}
+{"ts": "2026-11-02T08:17:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 7784, "output_tokens": 1018, "outcome": "accepted"}
+{"ts": "2026-11-02T08:19:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 3116, "output_tokens": 279, "outcome": "edited"}
+{"ts": "2026-11-02T08:29:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3398, "output_tokens": 1096, "outcome": "accepted"}
+{"ts": "2026-11-02T08:37:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5795, "output_tokens": 857, "outcome": "accepted"}
+{"ts": "2026-11-02T09:27:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 5604, "output_tokens": 1368, "outcome": "edited"}
+{"ts": "2026-11-02T09:36:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3145, "output_tokens": 769, "outcome": "edited"}
+{"ts": "2026-11-02T09:41:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 3459, "output_tokens": 1567, "outcome": "edited"}
+{"ts": "2026-11-02T09:41:00Z", "user": "u-011", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7665, "output_tokens": 791, "outcome": "accepted"}
+{"ts": "2026-11-02T11:19:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 8061, "output_tokens": 827, "outcome": "edited"}
+{"ts": "2026-11-02T12:39:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8744, "output_tokens": 1679, "outcome": "accepted"}
+{"ts": "2026-11-02T12:53:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4674, "output_tokens": 488, "outcome": "rejected"}
+{"ts": "2026-11-02T13:16:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 8250, "output_tokens": 2054, "outcome": "accepted"}
+{"ts": "2026-11-02T13:26:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2242, "output_tokens": 806, "outcome": "accepted"}
+{"ts": "2026-11-02T13:56:00Z", "user": "u-027", "team": "Service Design", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 2467, "output_tokens": 759, "outcome": "accepted"}
+{"ts": "2026-11-02T14:27:00Z", "user": "u-011", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8075, "output_tokens": 687, "outcome": "edited"}
+{"ts": "2026-11-02T15:03:00Z", "user": "u-016", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8070, "output_tokens": 958, "outcome": "edited"}
+{"ts": "2026-11-02T15:28:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 6130, "output_tokens": 1045, "outcome": "edited"}
+{"ts": "2026-11-02T15:52:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7776, "output_tokens": 528, "outcome": "accepted"}
+{"ts": "2026-11-02T17:12:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6772, "output_tokens": 1395, "outcome": "rejected"}
+{"ts": "2026-11-02T17:20:00Z", "user": "u-014", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 2648, "output_tokens": 271, "outcome": "accepted"}
+{"ts": "2026-11-02T17:25:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1575, "output_tokens": 816, "outcome": "accepted"}
+{"ts": "2026-11-02T17:44:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 2374, "output_tokens": 1279, "outcome": "accepted"}
+{"ts": "2026-11-02T17:50:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8167, "output_tokens": 835, "outcome": "accepted"}
+{"ts": "2026-11-03T08:08:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 3865, "output_tokens": 268, "outcome": "edited"}
+{"ts": "2026-11-03T08:10:00Z", "user": "u-011", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3364, "output_tokens": 1442, "outcome": "accepted"}
+{"ts": "2026-11-03T08:23:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8342, "output_tokens": 2196, "outcome": "edited"}
+{"ts": "2026-11-03T08:56:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 8825, "output_tokens": 416, "outcome": "accepted"}
+{"ts": "2026-11-03T09:17:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 8547, "output_tokens": 1164, "outcome": "accepted"}
+{"ts": "2026-11-03T09:25:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7480, "output_tokens": 2098, "outcome": "edited"}
+{"ts": "2026-11-03T09:48:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 4612, "output_tokens": 2179, "outcome": "rejected"}
+{"ts": "2026-11-03T09:54:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 7033, "output_tokens": 767, "outcome": "edited"}
+{"ts": "2026-11-03T10:07:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4108, "output_tokens": 1931, "outcome": "accepted"}
+{"ts": "2026-11-03T10:15:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 5204, "output_tokens": 226, "outcome": "accepted"}
+{"ts": "2026-11-03T11:03:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6991, "output_tokens": 535, "outcome": "edited"}
+{"ts": "2026-11-03T11:09:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 6217, "output_tokens": 432, "outcome": "edited"}
+{"ts": "2026-11-03T11:25:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 8390, "output_tokens": 1400, "outcome": "accepted"}
+{"ts": "2026-11-03T11:27:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5300, "output_tokens": 1928, "outcome": "rejected"}
+{"ts": "2026-11-03T12:26:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 8102, "output_tokens": 171, "outcome": "accepted"}
+{"ts": "2026-11-03T12:36:00Z", "user": "u-014", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 925, "output_tokens": 263, "outcome": "rejected"}
+{"ts": "2026-11-03T12:58:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1019, "output_tokens": 1731, "outcome": "accepted"}
+{"ts": "2026-11-03T13:15:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 1095, "output_tokens": 1679, "outcome": "edited"}
+{"ts": "2026-11-03T13:45:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 5713, "output_tokens": 2021, "outcome": "edited"}
+{"ts": "2026-11-03T17:30:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1043, "output_tokens": 1484, "outcome": "accepted"}
+{"ts": "2026-11-04T08:07:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 3753, "output_tokens": 1516, "outcome": "accepted"}
+{"ts": "2026-11-04T08:12:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8363, "output_tokens": 228, "outcome": "rejected"}
+{"ts": "2026-11-04T08:26:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2608, "output_tokens": 321, "outcome": "accepted"}
+{"ts": "2026-11-04T08:49:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6290, "output_tokens": 2070, "outcome": "accepted"}
+{"ts": "2026-11-04T09:06:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 2826, "output_tokens": 1121, "outcome": "edited"}
+{"ts": "2026-11-04T09:23:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 7175, "output_tokens": 616, "outcome": "edited"}
+{"ts": "2026-11-04T09:29:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8738, "output_tokens": 355, "outcome": "accepted"}
+{"ts": "2026-11-04T09:50:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 4870, "output_tokens": 1830, "outcome": "accepted"}
+{"ts": "2026-11-04T10:16:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 7351, "output_tokens": 253, "outcome": "accepted"}
+{"ts": "2026-11-04T10:34:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 6964, "output_tokens": 1832, "outcome": "edited"}
+{"ts": "2026-11-04T10:41:00Z", "user": "u-017", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 4679, "output_tokens": 787, "outcome": "rejected"}
+{"ts": "2026-11-04T11:25:00Z", "user": "u-026", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4365, "output_tokens": 479, "outcome": "accepted"}
+{"ts": "2026-11-04T11:28:00Z", "user": "u-027", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 2575, "output_tokens": 1114, "outcome": "edited"}
+{"ts": "2026-11-04T12:34:00Z", "user": "u-011", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1598, "output_tokens": 909, "outcome": "accepted"}
+{"ts": "2026-11-04T13:05:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5186, "output_tokens": 1720, "outcome": "accepted"}
+{"ts": "2026-11-04T13:21:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 5146, "output_tokens": 1256, "outcome": "accepted"}
+{"ts": "2026-11-04T13:23:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 5418, "output_tokens": 1729, "outcome": "rejected"}
+{"ts": "2026-11-04T13:29:00Z", "user": "u-026", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 7734, "output_tokens": 1723, "outcome": "rejected"}
+{"ts": "2026-11-04T13:56:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 8650, "output_tokens": 2173, "outcome": "rejected"}
+{"ts": "2026-11-04T14:16:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 8301, "output_tokens": 1767, "outcome": "accepted"}
+{"ts": "2026-11-04T14:50:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 3036, "output_tokens": 596, "outcome": "edited"}
+{"ts": "2026-11-04T15:00:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6298, "output_tokens": 671, "outcome": "accepted"}
+{"ts": "2026-11-04T15:01:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 1863, "output_tokens": 1522, "outcome": "accepted"}
+{"ts": "2026-11-04T15:18:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 1671, "output_tokens": 1850, "outcome": "accepted"}
+{"ts": "2026-11-04T15:24:00Z", "user": "u-014", "team": "Team Heron", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 3242, "output_tokens": 936, "outcome": "accepted"}
+{"ts": "2026-11-04T15:41:00Z", "user": "u-010", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3407, "output_tokens": 282, "outcome": "rejected"}
+{"ts": "2026-11-04T16:01:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 4170, "output_tokens": 2040, "outcome": "accepted"}
+{"ts": "2026-11-04T16:21:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 4885, "output_tokens": 1500, "outcome": "accepted"}
+{"ts": "2026-11-04T16:35:00Z", "user": "u-016", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 5654, "output_tokens": 721, "outcome": "rejected"}
+{"ts": "2026-11-04T17:06:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 3330, "output_tokens": 657, "outcome": "accepted"}
+{"ts": "2026-11-04T17:14:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7115, "output_tokens": 2056, "outcome": "edited"}
+{"ts": "2026-11-04T17:26:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 8990, "output_tokens": 811, "outcome": "rejected"}
+{"ts": "2026-11-05T08:06:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5715, "output_tokens": 698, "outcome": "edited"}
+{"ts": "2026-11-05T08:33:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1302, "output_tokens": 340, "outcome": "accepted"}
+{"ts": "2026-11-05T08:40:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7256, "output_tokens": 416, "outcome": "accepted"}
+{"ts": "2026-11-05T09:29:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 5926, "output_tokens": 1736, "outcome": "edited"}
+{"ts": "2026-11-05T09:37:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 4229, "output_tokens": 318, "outcome": "edited"}
+{"ts": "2026-11-05T09:45:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 5243, "output_tokens": 1171, "outcome": "accepted"}
+{"ts": "2026-11-05T10:21:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 7172, "output_tokens": 1421, "outcome": "rejected"}
+{"ts": "2026-11-05T10:21:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 5753, "output_tokens": 1177, "outcome": "accepted"}
+{"ts": "2026-11-05T10:59:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 4026, "output_tokens": 1849, "outcome": "accepted"}
+{"ts": "2026-11-05T11:12:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 806, "output_tokens": 515, "outcome": "accepted"}
+{"ts": "2026-11-05T11:21:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 2943, "output_tokens": 2108, "outcome": "accepted"}
+{"ts": "2026-11-05T12:24:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 3078, "output_tokens": 677, "outcome": "rejected"}
+{"ts": "2026-11-05T12:57:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 6603, "output_tokens": 882, "outcome": "accepted"}
+{"ts": "2026-11-05T16:28:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 5070, "output_tokens": 1665, "outcome": "edited"}
+{"ts": "2026-11-05T16:46:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 8179, "output_tokens": 1358, "outcome": "accepted"}
+{"ts": "2026-11-05T17:13:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4133, "output_tokens": 1989, "outcome": "accepted"}
+{"ts": "2026-11-05T17:45:00Z", "user": "u-018", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 4925, "output_tokens": 201, "outcome": "accepted"}
+{"ts": "2026-11-06T08:26:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 3727, "output_tokens": 1186, "outcome": "edited"}
+{"ts": "2026-11-06T08:27:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5701, "output_tokens": 1272, "outcome": "edited"}
+{"ts": "2026-11-06T08:55:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 7201, "output_tokens": 1544, "outcome": "edited"}
+{"ts": "2026-11-06T09:11:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1044, "output_tokens": 308, "outcome": "edited"}
+{"ts": "2026-11-06T09:51:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 5490, "output_tokens": 1624, "outcome": "accepted"}
+{"ts": "2026-11-06T09:51:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 8811, "output_tokens": 1979, "outcome": "rejected"}
+{"ts": "2026-11-06T09:58:00Z", "user": "u-018", "team": "Platform", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 4876, "output_tokens": 1830, "outcome": "rejected"}
+{"ts": "2026-11-06T10:35:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6747, "output_tokens": 483, "outcome": "rejected"}
+{"ts": "2026-11-06T10:41:00Z", "user": "u-013", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 8850, "output_tokens": 1516, "outcome": "accepted"}
+{"ts": "2026-11-06T10:46:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6859, "output_tokens": 1626, "outcome": "accepted"}
+{"ts": "2026-11-06T10:50:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4943, "output_tokens": 528, "outcome": "accepted"}
+{"ts": "2026-11-06T10:50:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 1496, "output_tokens": 1645, "outcome": "edited"}
+{"ts": "2026-11-06T10:53:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8950, "output_tokens": 1726, "outcome": "accepted"}
+{"ts": "2026-11-06T10:57:00Z", "user": "u-010", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 3991, "output_tokens": 1735, "outcome": "rejected"}
+{"ts": "2026-11-06T11:40:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 2546, "output_tokens": 210, "outcome": "accepted"}
+{"ts": "2026-11-06T12:06:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 1469, "output_tokens": 1498, "outcome": "accepted"}
+{"ts": "2026-11-06T12:28:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 6597, "output_tokens": 413, "outcome": "rejected"}
+{"ts": "2026-11-06T12:42:00Z", "user": "u-023", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 2805, "output_tokens": 416, "outcome": "edited"}
+{"ts": "2026-11-06T12:45:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 8801, "output_tokens": 356, "outcome": "rejected"}
+{"ts": "2026-11-06T13:08:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 6015, "output_tokens": 1464, "outcome": "edited"}
+{"ts": "2026-11-06T13:14:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 2550, "output_tokens": 1456, "outcome": "accepted"}
+{"ts": "2026-11-06T13:23:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3489, "output_tokens": 1097, "outcome": "accepted"}
+{"ts": "2026-11-06T13:39:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 6421, "output_tokens": 1791, "outcome": "accepted"}
+{"ts": "2026-11-06T14:00:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 7441, "output_tokens": 1209, "outcome": "accepted"}
+{"ts": "2026-11-06T14:02:00Z", "user": "u-013", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 1622, "output_tokens": 628, "outcome": "rejected"}
+{"ts": "2026-11-06T14:08:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 6403, "output_tokens": 1301, "outcome": "accepted"}
+{"ts": "2026-11-06T14:41:00Z", "user": "u-005", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3652, "output_tokens": 879, "outcome": "accepted"}
+{"ts": "2026-11-06T15:00:00Z", "user": "u-011", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5949, "output_tokens": 1105, "outcome": "rejected"}
+{"ts": "2026-11-06T15:28:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 6795, "output_tokens": 1020, "outcome": "rejected"}
+{"ts": "2026-11-06T15:33:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 2359, "output_tokens": 2185, "outcome": "accepted"}
+{"ts": "2026-11-06T16:05:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 6480, "output_tokens": 2023, "outcome": "edited"}
+{"ts": "2026-11-06T16:06:00Z", "user": "u-027", "team": "Service Design", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 6681, "output_tokens": 1365, "outcome": "edited"}
+{"ts": "2026-11-06T16:11:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 3492, "output_tokens": 796, "outcome": "edited"}
+{"ts": "2026-11-06T16:37:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 2850, "output_tokens": 1557, "outcome": "accepted"}
+{"ts": "2026-11-06T17:09:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 8974, "output_tokens": 2173, "outcome": "accepted"}
+{"ts": "2026-11-06T17:59:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 4391, "output_tokens": 1669, "outcome": "edited"}
+{"ts": "2026-11-09T09:51:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8138, "output_tokens": 717, "outcome": "edited"}
+{"ts": "2026-11-09T10:01:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 3535, "output_tokens": 151, "outcome": "accepted"}
+{"ts": "2026-11-09T10:39:00Z", "user": "u-017", "team": "Team Heron", "tool": "chat-assistant", "skill": null, "input_tokens": 1726, "output_tokens": 720, "outcome": "accepted"}
+{"ts": "2026-11-09T10:48:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2496, "output_tokens": 235, "outcome": "accepted"}
+{"ts": "2026-11-09T11:01:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 8779, "output_tokens": 956, "outcome": "accepted"}
+{"ts": "2026-11-09T11:41:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2384, "output_tokens": 1076, "outcome": "rejected"}
+{"ts": "2026-11-09T12:23:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7609, "output_tokens": 193, "outcome": "accepted"}
+{"ts": "2026-11-09T12:44:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3983, "output_tokens": 1724, "outcome": "accepted"}
+{"ts": "2026-11-09T13:04:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 5260, "output_tokens": 331, "outcome": "edited"}
+{"ts": "2026-11-09T13:28:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3984, "output_tokens": 219, "outcome": "edited"}
+{"ts": "2026-11-09T13:48:00Z", "user": "u-019", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 5342, "output_tokens": 428, "outcome": "rejected"}
+{"ts": "2026-11-09T14:04:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 5654, "output_tokens": 459, "outcome": "edited"}
+{"ts": "2026-11-09T14:20:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 6478, "output_tokens": 1969, "outcome": "rejected"}
+{"ts": "2026-11-09T14:38:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 4696, "output_tokens": 266, "outcome": "edited"}
+{"ts": "2026-11-09T14:54:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 4573, "output_tokens": 1744, "outcome": "edited"}
+{"ts": "2026-11-09T16:04:00Z", "user": "u-020", "team": "Platform", "tool": "chat-assistant", "skill": null, "input_tokens": 6093, "output_tokens": 2176, "outcome": "edited"}
+{"ts": "2026-11-09T17:34:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5385, "output_tokens": 1477, "outcome": "accepted"}
+{"ts": "2026-11-09T17:52:00Z", "user": "u-021", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2268, "output_tokens": 955, "outcome": "edited"}
+{"ts": "2026-11-10T08:00:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 8392, "output_tokens": 1910, "outcome": "edited"}
+{"ts": "2026-11-10T08:11:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 1814, "output_tokens": 1582, "outcome": "edited"}
+{"ts": "2026-11-10T08:18:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 3298, "output_tokens": 1009, "outcome": "edited"}
+{"ts": "2026-11-10T08:21:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 8701, "output_tokens": 1253, "outcome": "accepted"}
+{"ts": "2026-11-10T08:57:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8658, "output_tokens": 1163, "outcome": "rejected"}
+{"ts": "2026-11-10T09:01:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 5055, "output_tokens": 1188, "outcome": "rejected"}
+{"ts": "2026-11-10T09:05:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2598, "output_tokens": 443, "outcome": "accepted"}
+{"ts": "2026-11-10T09:06:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6395, "output_tokens": 1030, "outcome": "accepted"}
+{"ts": "2026-11-10T09:40:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 4213, "output_tokens": 383, "outcome": "edited"}
+{"ts": "2026-11-10T09:52:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 4515, "output_tokens": 1399, "outcome": "accepted"}
+{"ts": "2026-11-10T11:42:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3546, "output_tokens": 1427, "outcome": "accepted"}
+{"ts": "2026-11-10T11:48:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6674, "output_tokens": 1152, "outcome": "edited"}
+{"ts": "2026-11-10T12:20:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 8569, "output_tokens": 740, "outcome": "accepted"}
+{"ts": "2026-11-10T12:35:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 7687, "output_tokens": 778, "outcome": "rejected"}
+{"ts": "2026-11-10T12:37:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 2341, "output_tokens": 164, "outcome": "edited"}
+{"ts": "2026-11-10T13:32:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 6930, "output_tokens": 987, "outcome": "rejected"}
+{"ts": "2026-11-10T14:13:00Z", "user": "u-012", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 1700, "output_tokens": 2169, "outcome": "accepted"}
+{"ts": "2026-11-10T14:33:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4098, "output_tokens": 1798, "outcome": "accepted"}
+{"ts": "2026-11-10T14:38:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 6698, "output_tokens": 838, "outcome": "edited"}
+{"ts": "2026-11-10T14:45:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5864, "output_tokens": 2107, "outcome": "rejected"}
+{"ts": "2026-11-10T15:05:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 6543, "output_tokens": 188, "outcome": "accepted"}
+{"ts": "2026-11-10T15:07:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3171, "output_tokens": 1817, "outcome": "accepted"}
+{"ts": "2026-11-10T15:10:00Z", "user": "u-024", "team": "Service Design", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 4800, "output_tokens": 792, "outcome": "accepted"}
+{"ts": "2026-11-10T15:18:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 2871, "output_tokens": 740, "outcome": "edited"}
+{"ts": "2026-11-10T15:39:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5342, "output_tokens": 1887, "outcome": "accepted"}
+{"ts": "2026-11-10T16:33:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6305, "output_tokens": 1756, "outcome": "accepted"}
+{"ts": "2026-11-10T16:33:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1570, "output_tokens": 299, "outcome": "accepted"}
+{"ts": "2026-11-10T16:48:00Z", "user": "u-021", "team": "Platform", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3115, "output_tokens": 1476, "outcome": "accepted"}
+{"ts": "2026-11-10T16:54:00Z", "user": "u-019", "team": "Platform", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 6062, "output_tokens": 1256, "outcome": "accepted"}
+{"ts": "2026-11-10T16:54:00Z", "user": "u-019", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3874, "output_tokens": 1379, "outcome": "edited"}
+{"ts": "2026-11-10T17:15:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 4709, "output_tokens": 1913, "outcome": "accepted"}
+{"ts": "2026-11-10T17:31:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 3372, "output_tokens": 622, "outcome": "edited"}
+{"ts": "2026-11-10T17:46:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 5302, "output_tokens": 739, "outcome": "edited"}
+{"ts": "2026-11-11T08:03:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 1424, "output_tokens": 1616, "outcome": "accepted"}
+{"ts": "2026-11-11T08:06:00Z", "user": "u-014", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 8828, "output_tokens": 303, "outcome": "rejected"}
+{"ts": "2026-11-11T08:08:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 6650, "output_tokens": 443, "outcome": "accepted"}
+{"ts": "2026-11-11T08:58:00Z", "user": "u-016", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 884, "output_tokens": 1487, "outcome": "accepted"}
+{"ts": "2026-11-11T09:36:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 8141, "output_tokens": 1738, "outcome": "rejected"}
+{"ts": "2026-11-11T09:57:00Z", "user": "u-016", "team": "Team Heron", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6874, "output_tokens": 757, "outcome": "accepted"}
+{"ts": "2026-11-11T10:18:00Z", "user": "u-025", "team": "Service Design", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 4243, "output_tokens": 1155, "outcome": "accepted"}
+{"ts": "2026-11-11T10:23:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 5204, "output_tokens": 277, "outcome": "rejected"}
+{"ts": "2026-11-11T11:11:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 7522, "output_tokens": 805, "outcome": "accepted"}
+{"ts": "2026-11-11T11:28:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 4838, "output_tokens": 602, "outcome": "accepted"}
+{"ts": "2026-11-11T12:19:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 2138, "output_tokens": 1162, "outcome": "accepted"}
+{"ts": "2026-11-11T12:45:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3580, "output_tokens": 745, "outcome": "accepted"}
+{"ts": "2026-11-11T14:07:00Z", "user": "u-027", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 8957, "output_tokens": 491, "outcome": "edited"}
+{"ts": "2026-11-11T14:09:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 1058, "output_tokens": 1821, "outcome": "accepted"}
+{"ts": "2026-11-11T14:30:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 3688, "output_tokens": 807, "outcome": "accepted"}
+{"ts": "2026-11-11T15:05:00Z", "user": "u-015", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 2933, "output_tokens": 458, "outcome": "accepted"}
+{"ts": "2026-11-11T15:19:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1754, "output_tokens": 212, "outcome": "edited"}
+{"ts": "2026-11-11T15:20:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 4736, "output_tokens": 896, "outcome": "accepted"}
+{"ts": "2026-11-11T15:21:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7427, "output_tokens": 695, "outcome": "accepted"}
+{"ts": "2026-11-11T16:20:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 8963, "output_tokens": 1986, "outcome": "rejected"}
+{"ts": "2026-11-11T16:25:00Z", "user": "u-016", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 2326, "output_tokens": 383, "outcome": "edited"}
+{"ts": "2026-11-11T16:45:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7717, "output_tokens": 1349, "outcome": "accepted"}
+{"ts": "2026-11-11T16:55:00Z", "user": "u-018", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 5827, "output_tokens": 1604, "outcome": "accepted"}
+{"ts": "2026-11-11T17:05:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 1379, "output_tokens": 1718, "outcome": "rejected"}
+{"ts": "2026-11-11T17:09:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 7650, "output_tokens": 736, "outcome": "accepted"}
+{"ts": "2026-11-11T17:33:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1412, "output_tokens": 1732, "outcome": "accepted"}
+{"ts": "2026-11-11T17:46:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 1622, "output_tokens": 1238, "outcome": "edited"}
+{"ts": "2026-11-12T08:16:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 3376, "output_tokens": 555, "outcome": "rejected"}
+{"ts": "2026-11-12T08:32:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2458, "output_tokens": 1018, "outcome": "accepted"}
+{"ts": "2026-11-12T08:49:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 8502, "output_tokens": 1559, "outcome": "accepted"}
+{"ts": "2026-11-12T09:15:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5293, "output_tokens": 382, "outcome": "accepted"}
+{"ts": "2026-11-12T09:17:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 8120, "output_tokens": 1584, "outcome": "rejected"}
+{"ts": "2026-11-12T09:41:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7840, "output_tokens": 2098, "outcome": "accepted"}
+{"ts": "2026-11-12T09:45:00Z", "user": "u-025", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 1787, "output_tokens": 1095, "outcome": "accepted"}
+{"ts": "2026-11-12T09:58:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 7075, "output_tokens": 264, "outcome": "edited"}
+{"ts": "2026-11-12T10:06:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 3611, "output_tokens": 1041, "outcome": "accepted"}
+{"ts": "2026-11-12T10:28:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 2367, "output_tokens": 1956, "outcome": "edited"}
+{"ts": "2026-11-12T10:39:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 2760, "output_tokens": 1978, "outcome": "edited"}
+{"ts": "2026-11-12T11:01:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 3955, "output_tokens": 1016, "outcome": "edited"}
+{"ts": "2026-11-12T11:17:00Z", "user": "u-006", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3119, "output_tokens": 776, "outcome": "rejected"}
+{"ts": "2026-11-12T11:34:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6663, "output_tokens": 199, "outcome": "rejected"}
+{"ts": "2026-11-12T11:49:00Z", "user": "u-012", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1781, "output_tokens": 587, "outcome": "accepted"}
+{"ts": "2026-11-12T13:17:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 2119, "output_tokens": 944, "outcome": "accepted"}
+{"ts": "2026-11-12T13:22:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 5997, "output_tokens": 1901, "outcome": "edited"}
+{"ts": "2026-11-12T13:25:00Z", "user": "u-020", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6618, "output_tokens": 577, "outcome": "accepted"}
+{"ts": "2026-11-12T13:28:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7829, "output_tokens": 1440, "outcome": "rejected"}
+{"ts": "2026-11-12T14:23:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 5550, "output_tokens": 995, "outcome": "accepted"}
+{"ts": "2026-11-12T14:23:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 7942, "output_tokens": 1349, "outcome": "accepted"}
+{"ts": "2026-11-12T14:37:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 6539, "output_tokens": 2075, "outcome": "accepted"}
+{"ts": "2026-11-12T14:39:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 8277, "output_tokens": 1232, "outcome": "accepted"}
+{"ts": "2026-11-12T14:53:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 2544, "output_tokens": 765, "outcome": "accepted"}
+{"ts": "2026-11-12T15:21:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 2362, "output_tokens": 309, "outcome": "edited"}
+{"ts": "2026-11-12T15:30:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": null, "input_tokens": 6904, "output_tokens": 1402, "outcome": "edited"}
+{"ts": "2026-11-12T15:37:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 3754, "output_tokens": 859, "outcome": "accepted"}
+{"ts": "2026-11-12T15:46:00Z", "user": "u-015", "team": "Team Heron", "tool": "chat-assistant", "skill": "pr-review-checklist", "input_tokens": 1051, "output_tokens": 385, "outcome": "edited"}
+{"ts": "2026-11-12T16:05:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "meeting-notes-to-jira", "input_tokens": 8844, "output_tokens": 975, "outcome": "edited"}
+{"ts": "2026-11-12T16:17:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 3871, "output_tokens": 666, "outcome": "accepted"}
+{"ts": "2026-11-12T16:26:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 3212, "output_tokens": 257, "outcome": "edited"}
+{"ts": "2026-11-12T16:28:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 1173, "output_tokens": 410, "outcome": "edited"}
+{"ts": "2026-11-12T16:32:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 5477, "output_tokens": 1837, "outcome": "edited"}
+{"ts": "2026-11-12T16:48:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 7819, "output_tokens": 458, "outcome": "accepted"}
+{"ts": "2026-11-12T16:48:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 3659, "output_tokens": 205, "outcome": "accepted"}
+{"ts": "2026-11-12T17:23:00Z", "user": "u-004", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 881, "output_tokens": 877, "outcome": "accepted"}
+{"ts": "2026-11-12T17:34:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "meeting-notes-to-jira", "input_tokens": 7969, "output_tokens": 1092, "outcome": "accepted"}
+{"ts": "2026-11-13T08:06:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 5365, "output_tokens": 619, "outcome": "accepted"}
+{"ts": "2026-11-13T08:07:00Z", "user": "u-030", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 6364, "output_tokens": 688, "outcome": "accepted"}
+{"ts": "2026-11-13T08:13:00Z", "user": "u-021", "team": "Platform", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 5517, "output_tokens": 757, "outcome": "accepted"}
+{"ts": "2026-11-13T08:23:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 3096, "output_tokens": 228, "outcome": "accepted"}
+{"ts": "2026-11-13T08:38:00Z", "user": "u-003", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 1444, "output_tokens": 295, "outcome": "edited"}
+{"ts": "2026-11-13T08:46:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 7063, "output_tokens": 1762, "outcome": "accepted"}
+{"ts": "2026-11-13T08:50:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1933, "output_tokens": 2076, "outcome": "accepted"}
+{"ts": "2026-11-13T09:11:00Z", "user": "u-023", "team": "Platform", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 8699, "output_tokens": 1322, "outcome": "accepted"}
+{"ts": "2026-11-13T09:14:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": "release-notes-drafter", "input_tokens": 876, "output_tokens": 913, "outcome": "edited"}
+{"ts": "2026-11-13T09:58:00Z", "user": "u-024", "team": "Service Design", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 3994, "output_tokens": 878, "outcome": "accepted"}
+{"ts": "2026-11-13T10:02:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6002, "output_tokens": 390, "outcome": "edited"}
+{"ts": "2026-11-13T10:34:00Z", "user": "u-030", "team": "Service Design", "tool": "chat-assistant", "skill": null, "input_tokens": 3571, "output_tokens": 655, "outcome": "accepted"}
+{"ts": "2026-11-13T11:41:00Z", "user": "u-002", "team": "Team Kestrel", "tool": "claude-code", "skill": "wcag-quick-check", "input_tokens": 7800, "output_tokens": 1768, "outcome": "accepted"}
+{"ts": "2026-11-13T11:54:00Z", "user": "u-008", "team": "Team Kestrel", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 6623, "output_tokens": 566, "outcome": "accepted"}
+{"ts": "2026-11-13T13:02:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": null, "input_tokens": 5321, "output_tokens": 368, "outcome": "accepted"}
+{"ts": "2026-11-13T13:15:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 7371, "output_tokens": 1278, "outcome": "edited"}
+{"ts": "2026-11-13T14:08:00Z", "user": "u-017", "team": "Team Heron", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 2952, "output_tokens": 2195, "outcome": "accepted"}
+{"ts": "2026-11-13T14:43:00Z", "user": "u-022", "team": "Platform", "tool": "claude-code", "skill": "pr-review-checklist", "input_tokens": 1466, "output_tokens": 1135, "outcome": "accepted"}
+{"ts": "2026-11-13T14:44:00Z", "user": "u-025", "team": "Service Design", "tool": "claude-code", "skill": "release-notes-drafter", "input_tokens": 1352, "output_tokens": 1614, "outcome": "accepted"}
+{"ts": "2026-11-13T15:07:00Z", "user": "u-001", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 2381, "output_tokens": 1952, "outcome": "accepted"}
+{"ts": "2026-11-13T15:18:00Z", "user": "u-007", "team": "Team Kestrel", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 7181, "output_tokens": 1854, "outcome": "edited"}
+{"ts": "2026-11-13T15:19:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": null, "input_tokens": 5682, "output_tokens": 610, "outcome": "rejected"}
+{"ts": "2026-11-13T16:19:00Z", "user": "u-009", "team": "Team Kestrel", "tool": "claude-code", "skill": "user-story-writer", "input_tokens": 4026, "output_tokens": 179, "outcome": "edited"}
+{"ts": "2026-11-13T16:33:00Z", "user": "u-022", "team": "Platform", "tool": "chat-assistant", "skill": "wcag-quick-check", "input_tokens": 8945, "output_tokens": 1091, "outcome": "edited"}
+{"ts": "2026-11-13T17:08:00Z", "user": "u-018", "team": "Platform", "tool": "claude-code", "skill": null, "input_tokens": 7577, "output_tokens": 1538, "outcome": "rejected"}
+{"ts": "2026-11-13T17:19:00Z", "user": "u-018", "team": "Platform", "tool": "chat-assistant", "skill": "user-story-writer", "input_tokens": 977, "output_tokens": 379, "outcome": "edited"}
+{"ts": "2026-11-13T17:29:00Z", "user": "u-014", "team": "Team Heron", "tool": "claude-code", "skill": null, "input_tokens": 1214, "output_tokens": 838, "outcome": "edited"}

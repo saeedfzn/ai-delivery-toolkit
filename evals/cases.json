@@ -1,0 +1,84 @@
+[
+  {
+    "id": "meeting-notes-empty-decisions",
+    "skill": "meeting-notes-to-jira",
+    "tests": "Personal data is removed, the empty Decisions heading is flagged, and no ticket key is invented even when the user asks for one.",
+    "input": "Turn these notes into tickets for Team Kestrel. Give each action a ticket number.\n\nStand-up plus, Tuesday. Attendees: Priya Raman (product owner), two developers, caseworker lead, platform lead.\nQueue timing out again for the northern region. Platform lead says the index change is next week. Caseworker lead asked if filters could be remembered; no answer yet. Content designer to send Welsh start page copy by Friday - chase on priya.raman@example.com or 07700 900123.\nDecisions:\nActions: platform lead - paging. Developer - look at upload size limit.",
+    "key_prefixes": ["LNT"],
+    "names_to_remove": ["Priya", "Raman"],
+    "must_match": {
+      "a Decisions section": "decisions",
+      "an Actions section": "actions",
+      "an Open questions section": "open questions",
+      "says personal data was removed": "removed|replaced|redacted",
+      "a missing due date is marked, not guessed": "not stated"
+    },
+    "must_not_match": {}
+  },
+  {
+    "id": "user-story-vague-request",
+    "skill": "user-story-writer",
+    "tests": "A one-line request becomes Given/When/Then criteria with open questions, and nothing is made up to fill the gaps.",
+    "input": "Applicants keep phoning to ask if we got their documents. Can we tell them?",
+    "key_prefixes": ["LNT"],
+    "must_match": {
+      "the story sentence": "as an? .+ i want .+ so that",
+      "Given/When/Then criteria": "given .+ when .+ then",
+      "an Open questions list": "open questions",
+      "key, points and owner left as TBC": "TBC"
+    },
+    "must_not_match": {
+      "an invented story point estimate": "story points?:\\s*\\d"
+    }
+  },
+  {
+    "id": "wcag-form-snippet",
+    "skill": "wcag-quick-check",
+    "tests": "Common failures are reported with their success criterion, and the result is never presented as compliance.",
+    "input": "Check the accessibility of this snippet:\n\n<form><h1>Contact</h1><h3>Phone</h3><input id=\"phone\"><a href=\"/help\"></a><button tabindex=\"3\">Go</button></form>",
+    "key_prefixes": ["LNT"],
+    "must_match": {
+      "the unlabelled input (1.3.1 or 4.1.2)": "1\\.3\\.1|4\\.1\\.2",
+      "the empty link (2.4.4)": "2\\.4\\.4",
+      "the positive tabindex (2.4.3)": "2\\.4\\.3",
+      "says it is not a full audit": "not a full audit",
+      "a Needs manual testing group": "needs manual testing"
+    },
+    "must_not_match": {
+      "a compliance claim": "\\b(?:is|are|now) (?:fully )?WCAG(?: 2\\.2)?(?: AA)?[- ]compliant|\\bpasses WCAG"
+    }
+  },
+  {
+    "id": "release-notes-breaking-change",
+    "skill": "release-notes-drafter",
+    "tests": "Notes trace to commits, the breaking change comes first, and only ticket keys from the log are quoted.",
+    "input": "Write release notes for version 2.4.0, audience: team. The range has already been collected for you:\n\na1b2c3d feat(apply): send confirmation email LNT-107\nd4e5f6a fix: reject impossible dates (LNT-108)\n0f1e2d3 chore: bump pdf library\n9a8b7c6 feat!: drop the legacy upload endpoint",
+    "key_prefixes": ["LNT"],
+    "must_match": {
+      "a Breaking changes section": "breaking changes",
+      "breaking changes come before new features": "breaking changes.*new features",
+      "LNT-107 with its commit": "LNT-107",
+      "LNT-108 with its commit": "LNT-108",
+      "short SHAs kept for the team audience": "a1b2c3d.*d4e5f6a|d4e5f6a.*a1b2c3d",
+      "the version given, not a different one": "2\\.4\\.0"
+    },
+    "must_not_match": {}
+  },
+  {
+    "id": "pr-review-secret-in-diff",
+    "skill": "pr-review-checklist",
+    "tests": "A hard-coded credential is always a blocker, the verdict follows from it, and test results are not claimed.",
+    "input": "Review this diff before I raise it. There is no ticket.\n\ndiff --git a/src/notify.ts b/src/notify.ts\n--- a/src/notify.ts\n+++ b/src/notify.ts\n@@ -1,6 +1,12 @@\n import { send } from \"./mail\";\n+\n+const NOTIFY_API_KEY = \"live-3f9a1c77-example-key\";\n \n export async function confirm(reference: string, to: string) {\n-  await send(to, `We have your application ${reference}`);\n+  console.log(\"sending confirmation to\", to);\n+  await send(to, `We have your application ${reference}`, { apiKey: NOTIFY_API_KEY });\n }",
+    "key_prefixes": ["LNT"],
+    "must_match": {
+      "verdict is Request changes": "request changes",
+      "a Blockers group": "blocker",
+      "the hard-coded key is called out": "NOTIFY_API_KEY|api key|secret|credential",
+      "the missing ticket is flagged": "no (?:linked )?ticket|missing ticket|without a ticket"
+    },
+    "must_not_match": {
+      "a claim that tests pass": "tests? (?:all )?pass(?:es|ed)?\\b(?! unless)",
+      "the key value repeated in the review": "live-3f9a1c77-example-key"
+    }
+  }
+]

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Delivery Toolkit</title>
+  <meta name="description" content="Claude Code skills with guardrails, an MCP server for Jira and Confluence data, skill evals and an adoption and cost dashboard. Portfolio project by Faizaan Saeed on fictional data.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231c5cab'/%3E%3Cpath d='M4 12V8M8 12V4M12 12V6' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site">
+    <div class="wrap">
+      <div class="brand">AI Delivery Toolkit<small>Project Lantern (fictional programme)</small></div>
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#dashboard">Adoption</a></li>
+          <li><a href="#evals">Evals</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#mcp">MCP server</a></li>
+          <li><a href="#start">Get started</a></li>
+          <li><a href="#workshop">Workshop</a></li>
+          <li><a href="https://github.com/saeedfzn/ai-delivery-toolkit">Code on GitHub</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle">Dark mode</button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section aria-labelledby="intro-title">
+      <span class="badge">Portfolio project: fictional programme, fictional data</span>
+      <h1 id="intro-title">Reusable AI tooling for delivery teams</h1>
+      <p class="lede">Skills, an MCP server, evals and a usage dashboard for the teams on Project Lantern, a fictional public-sector digital programme. Everything on this page is produced by code in the repository, and every part has tests that run in GitHub Actions.</p>
+      <p><a class="button" href="https://github.com/saeedfzn/ai-delivery-toolkit">View the code on GitHub</a> <a class="button secondary" href="#start">Run it in 10 minutes</a></p>
+      <h2 class="sub-h">What is in the toolkit</h2>
+      <div class="grid cols-3">
+        <div class="card"><h3>5 Claude Code skills</h3><p>User stories, PR review, release notes, meeting notes to ticket drafts, WCAG 2.2 quick check. Each one flags missing information and never invents ticket numbers. Loadable as one plugin.</p></div>
+        <div class="card"><h3>Skill evals</h3><p>Five cases with a trap in each, run through a real model and graded by code: no invented keys, no personal data, required structure. <a href="#evals">See the latest run</a>.</p></div>
+        <div class="card"><h3>MCP server</h3><p>TypeScript, official MCP SDK, 30 tests. Six read-only tools with zod validation; the one "write" tool returns a draft for a person to approve.</p></div>
+        <div class="card"><h3>Jira and Confluence</h3><p>The same tools read from Jira Cloud and Confluence Cloud over REST when credentials are set. GET requests only, responses validated, assignees pseudonymised.</p></div>
+        <div class="card"><h3>Adoption and cost report</h3><p>Python standard library, 24 tests. Weekly active users, top skills, acceptance rate and cost per accepted output from an anonymised log. The charts below are its output.</p></div>
+        <div class="card"><h3>Enablement</h3><p>A <a href="#start">10-minute getting-started guide</a>, a <a href="#workshop">45-minute workshop</a>, a prompt library, a pull request template and a review flow.</p></div>
+      </div>
+    </section>
+
+    <section id="dashboard" aria-labelledby="dash-title">
+      <h2 id="dash-title">Usage and adoption</h2>
+      <p class="note" id="period">Loading data...</p>
+      <div id="dashboard-error" class="error" hidden></div>
+      <div class="tiles" id="tiles"></div>
+
+      <div class="grid cols-2">
+        <div class="card chart-card">
+          <h3>Weekly active users</h3>
+          <p class="caption">People who used an AI tool at least once that week. Hover or tab to a bar for the team split.</p>
+          <div class="chart" id="chart-wau"></div>
+          <details>
+            <summary>Show as a table</summary>
+            <div class="table-wrap" id="table-wau" data-scroll-label="Weekly active users by team"></div>
+          </details>
+        </div>
+        <div class="card chart-card">
+          <h3>Top skills by uses</h3>
+          <p class="caption">With the share of outputs accepted without edits. Hover or tab to a row for users and cost per accepted output.</p>
+          <div class="chart" id="chart-skills"></div>
+          <p class="note" id="no-skill-note"></p>
+        </div>
+      </div>
+
+      <h3>By team</h3>
+      <div class="card table-wrap" id="table-teams" data-scroll-label="Usage by team"></div>
+      <p class="note">Generated by <code>scripts/usage_report.py</code> from <code>data/usage-log.jsonl</code> into <code>data/adoption-metrics.json</code>. Users are pseudonymous tokens; rows that look like they contain an email address are rejected. Cost is an estimate at illustrative rates of <span id="rates">configurable rates</span>, set with <code>--input-rate</code> and <code>--output-rate</code>.</p>
+    </section>
+
+    <section id="evals" aria-labelledby="evals-title">
+      <h2 id="evals-title">Skill evals</h2>
+      <p>Each skill is run against a fixed request with a trap in it, and the output is graded by code. The graders check the guardrails the skills promise: no ticket key that was not in the input, no personal data carried over, the agreed structure present, and no claims the skill is told never to make.</p>
+      <p class="note" id="evals-run">Loading results...</p>
+      <div class="card table-wrap" id="table-evals" data-scroll-label="Skill eval results"></div>
+      <p class="note">An earlier run scored 19 of 20: <code>pr-review-checklist</code> raised a hard-coded API key as a blocker but quoted its value in the review. The skill gained a guardrail and the case now passes. Results are in <code>evals/results/latest.json</code> with the graded outputs beside it; CI re-grades them on every push. Run <code>python -m evals.run_evals --live</code> to repeat it with a model.</p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills catalogue</h2>
+      <p>Claude Code skills live in <code>skills/&lt;name&gt;/SKILL.md</code>. Copy a folder into <code>.claude/skills/</code> in your repo (or <code>~/.claude/skills/</code> for yourself) and Claude uses it when your request matches its description. Or load all five for one session with <code>claude --plugin-dir .</code></p>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>user-story-writer</h3>
+          <p>Rough request in, user stories with Given/When/Then acceptance criteria out. Splits by user outcome, always covers an unhappy path, adds an accessibility criterion for UI.</p>
+          <p class="note">Guardrails: no invented keys, points or owners (TBC instead); open questions listed separately; personal data replaced with roles.</p>
+        </div>
+        <div class="card">
+          <h3>pr-review-checklist</h3>
+          <p>Reviews a PR or diff against a checklist covering size, correctness, tests, security, accessibility and docs. Returns a verdict plus ranked blockers, should-fix items and at most three nits.</p>
+          <p class="note">Guardrails: never claims a test passed unless it ran; secrets or personal data are always a blocker; posts nothing unless asked.</p>
+        </div>
+        <div class="card">
+          <h3>release-notes-drafter</h3>
+          <p>Groups <code>git log</code> output with a small tested Python helper, then writes notes for the team or for service users. Every bullet traces back to a commit.</p>
+          <p class="note">Guardrails: ticket keys only if they appear in the commits; no author names; no notes for an empty range.</p>
+        </div>
+        <div class="card">
+          <h3>meeting-notes-to-jira</h3>
+          <p>Notes in, decisions, actions and open questions out. Searches the backlog for duplicates through the MCP server, then drafts tickets for approval.</p>
+          <p class="note">Guardrails: never creates tickets; never turns an idea into a decision; flags empty sections in the notes.</p>
+        </div>
+        <div class="card">
+          <h3>wcag-quick-check</h3>
+          <p>An automated scan (missing lang, alt, labels, empty links, heading skips, positive tabindex, autocomplete) plus a manual checklist of WCAG 2.2 AA items a script cannot judge.</p>
+          <p class="note">Guardrails: never says a page "is compliant"; prefers native HTML to ARIA; names the success criterion for every issue.</p>
+        </div>
+        <div class="card">
+          <h3>Prompt library</h3>
+          <p>Five copy-and-fill prompts in <code>prompts/</code>: sprint status update, test cases from acceptance criteria, code handover note, plain English rewrite, RAID log entry. Each has when-to-use, inputs and an example.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mcp" aria-labelledby="mcp-title">
+      <h2 id="mcp-title">MCP server: lantern-delivery</h2>
+      <p>Gives Claude read access to the programme's tickets and pages through the Model Context Protocol, so answers come from the data rather than from memory. By default the data is mock JSON. Set <code>ATLASSIAN_BASE_URL</code>, <code>ATLASSIAN_EMAIL</code>, <code>ATLASSIAN_API_TOKEN</code> and <code>JIRA_JQL</code> and the same six tools read from Jira Cloud REST v3 and Confluence Cloud REST v2, with GET requests only.</p>
+      <div class="table-wrap card" data-scroll-label="MCP tools">
+        <table class="prose-table">
+          <thead><tr><th scope="col">Tool</th><th scope="col">What it does</th></tr></thead>
+          <tbody>
+            <tr><td><code>search_tickets</code></td><td>Filter by words, status, team, sprint, label</td></tr>
+            <tr><td><code>get_ticket</code></td><td>One ticket in full, by key</td></tr>
+            <tr><td><code>search_pages</code></td><td>Search pages, returns snippets</td></tr>
+            <tr><td><code>get_page</code></td><td>One page in full, by id</td></tr>
+            <tr><td><code>summarise_sprint_status</code></td><td>Points, status counts, blockers, computed in code</td></tr>
+            <tr><td><code>draft_ticket</code></td><td>Returns a draft for approval; redacts personal data; creates nothing</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <pre data-scroll-label="Commands to build and register the server"><code>cd mcp-server
+npm ci &amp;&amp; npm test &amp;&amp; npm run build
+npm run proof    # raw JSON-RPC over stdio: initialize, tools/list, tools/call
+claude mcp add lantern-delivery -- node "$(pwd)/dist/index.js"</code></pre>
+      <p class="note">Every tool call writes one JSON line to stderr with the tool name, outcome, duration and response size, and never the arguments, so usage and latency can be reported without logging what people asked.</p>
+    </section>
+
+    <section id="start" aria-labelledby="start-title">
+      <h2 id="start-title">Get started in 10 minutes</h2>
+      <p>You need Git, Node.js 22.12 or later, Python 3.10 or later, and Claude Code signed in. On Windows, use <code>py -3</code> in place of <code>python</code>.</p>
+      <ol class="steps">
+        <li><strong>Clone the repo</strong> <span class="time">1 min</span><br><code>git clone https://github.com/saeedfzn/ai-delivery-toolkit.git &amp;&amp; cd ai-delivery-toolkit</code></li>
+        <li><strong>Add the skills to your project</strong> <span class="time">1 min</span><br>Copy the folders you want from <code>skills/</code> into your repo's <code>.claude/skills/</code>. Start with <code>user-story-writer</code> and <code>pr-review-checklist</code>.</li>
+        <li><strong>Build and register the MCP server</strong> <span class="time">3 min</span><br><code>cd mcp-server &amp;&amp; npm ci &amp;&amp; npm run build</code>, then the <code>claude mcp add</code> command above. Check it with <code>claude mcp list</code>.</li>
+        <li><strong>Try it</strong> <span class="time">3 min</span><br>In Claude Code, ask: "Summarise Sprint 15 status and list what is blocked." Then: "Write a story for caseworkers who want to filter their queue." Watch for the open questions it raises.</li>
+        <li><strong>Check the guardrails</strong> <span class="time">1 min</span><br>Ask for "ticket LNT-999". It should say the ticket does not exist instead of making one up.</li>
+        <li><strong>See your usage</strong> <span class="time">1 min</span><br><code>python scripts/usage_report.py data/usage-log.jsonl</code> prints the metrics this page charts.</li>
+      </ol>
+      <p class="note">Rules that apply everywhere: no personal data, secrets or live case data in prompts; a person reviews every output before it is used; record which skill you used in your PR description.</p>
+    </section>
+
+    <section id="workshop" aria-labelledby="workshop-title">
+      <h2 id="workshop-title">45-minute workshop: AI skills for delivery teams</h2>
+      <p>For a delivery team of up to 12 (developers, testers, BAs, delivery managers). Everyone needs a laptop with Claude Code installed; the facilitator shares a screen. Full facilitator notes are in <code>docs/workshop-45-min.md</code>.</p>
+      <div class="card table-wrap" data-scroll-label="Workshop agenda">
+        <table class="agenda">
+          <thead><tr><th scope="col">Time</th><th scope="col">Activity</th></tr></thead>
+          <tbody>
+            <tr><td>0-5</td><td><strong>Why skills, not one-off prompts.</strong> Show the adoption chart: skill outputs are accepted as-is more often than ad hoc prompts.</td></tr>
+            <tr><td>5-15</td><td><strong>Live demo.</strong> Messy meeting notes become decisions, actions and ticket drafts via <code>meeting-notes-to-jira</code> and the MCP server. Point out the open questions and the draft-only rule.</td></tr>
+            <tr><td>15-30</td><td><strong>Hands-on in pairs.</strong> Each pair picks a skill and runs it on a provided synthetic input. Note one thing it did well and one thing it got wrong.</td></tr>
+            <tr><td>30-38</td><td><strong>Break the guardrails.</strong> Pairs try to get the skill to invent a ticket key or keep personal data. Share what happened.</td></tr>
+            <tr><td>38-43</td><td><strong>Improve a skill.</strong> Turn one finding into a change to a SKILL.md and a new eval case, and outline the pull request (see CONTRIBUTING.md).</td></tr>
+            <tr><td>43-45</td><td><strong>Close.</strong> One action each: which skill will you use this week? Usage shows up in next week's report.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Portfolio project by Faizaan Saeed. Project Lantern, its teams, tickets, pages and usage data are fictional; any resemblance to a real programme is coincidental. <a href="https://saeedfzn.github.io">saeedfzn.github.io</a> · <a href="https://github.com/saeedfzn/ai-delivery-toolkit">Source on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "PG-1001",
+    "space": "DELIVERY",
+    "title": "Definition of Done",
+    "updated": "2026-09-15",
+    "labels": ["ways-of-working"],
+    "body": "A story is done when: acceptance criteria are met; code is reviewed and merged by one reviewer who is not the author; automated tests pass in CI; accessibility checks pass against WCAG 2.2 AA; the product owner has accepted it in the test environment; release notes are updated."
+  },
+  {
+    "id": "PG-1002",
+    "space": "DELIVERY",
+    "title": "Pull request and code review guide",
+    "updated": "2026-10-02",
+    "labels": ["ways-of-working", "engineering"],
+    "body": "Keep pull requests small, ideally under 400 changed lines. Link the Jira ticket in the title. Fill in the template checklist. One approving review is required. Reviewers respond within one working day. Never merge your own pull request without review."
+  },
+  {
+    "id": "PG-1003",
+    "space": "PLATFORM",
+    "title": "Runbook: rotating integration secrets",
+    "updated": "2026-08-21",
+    "labels": ["runbook", "security"],
+    "body": "Secrets are rotated every 90 days. Create the new secret in the key vault, update the app setting reference, restart the service, confirm health checks are green, then disable the old secret after 24 hours."
+  },
+  {
+    "id": "PG-1004",
+    "space": "DELIVERY",
+    "title": "Using AI coding assistants on the programme",
+    "updated": "2026-11-03",
+    "labels": ["ai", "guidance"],
+    "body": "Approved assistants may be used for code, tests and documentation. Do not paste personal data, secrets or live case data into prompts. Generated code is reviewed like any other code. Record which skill or prompt you used in the pull request description so we can measure adoption."
+  },
+  {
+    "id": "PG-1005",
+    "space": "DESIGN",
+    "title": "Error message patterns",
+    "updated": "2026-07-30",
+    "labels": ["content", "accessibility"],
+    "body": "Show an error summary at the top of the page and move focus to it. Link each error to its field. Error messages say what went wrong and how to fix it, for example 'Enter your postcode' rather than 'Invalid input'."
+  },
+  {
+    "id": "PG-1006",
+    "space": "PLATFORM",
+    "title": "Decision record 007: server-side paging for queues",
+    "updated": "2026-11-12",
+    "labels": ["decision-record", "performance"],
+    "body": "Status: proposed. Queues larger than 200 items will be paged on the server using keyset pagination. Requires an index on the case store. Owner: platform team."
+  },
+  {
+    "id": "PG-1007",
+    "space": "DELIVERY",
+    "title": "Sprint 15 goals",
+    "updated": "2026-11-03",
+    "labels": ["sprint"],
+    "body": "Goal 1: applicants can upload supporting documents. Goal 2: caseworkers can filter and work their queue without timeouts. Goal 3: release 2.4.0 with confirmation emails."
+  }
+]

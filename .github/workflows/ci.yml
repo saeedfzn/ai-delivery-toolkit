@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  mcp-server:
+    name: MCP server (typecheck, test, build, stdio proof)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: mcp-server
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: mcp-server/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: JSON-RPC smoke test over stdio
+        run: npm run proof
+
+  python:
+    name: Python (usage report, skill lint, eval graders)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+      - name: Unit tests
+        run: python -m unittest -v
+      - name: Skill lint
+        run: python -m evals.lint_skills
+      - name: Re-grade the saved skill eval outputs
+        run: python -m evals.run_evals
+      - name: Committed metrics and eval results are reproducible
+        run: |
+          python scripts/usage_report.py data/usage-log.jsonl --out data/adoption-metrics.json
+          git diff --exit-code -- data/adoption-metrics.json evals/results/latest.json

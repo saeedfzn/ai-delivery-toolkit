@@ -1,0 +1,7 @@
+{
+  "name": "ai-delivery-toolkit",
+  "description": "Delivery-team skills with guardrails: user stories, PR review, release notes, meeting notes to ticket drafts, WCAG 2.2 quick check.",
+  "version": "0.1.0",
+  "author": { "name": "Faizaan Saeed" },
+  "license": "MIT"
+}

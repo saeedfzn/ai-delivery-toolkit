@@ -1,0 +1,196 @@
+{
+  "schema": "skill-evals/v1",
+  "run": {
+    "date": "2026-11-17",
+    "runner": "claude -p, tools off, one attempt per case",
+    "model": "claude-opus-5-5",
+    "input_tokens": 20375,
+    "output_tokens": 7608,
+    "cost_usd": 0.2385,
+    "per_case": {
+      "meeting-notes-empty-decisions": {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4014,
+        "output_tokens": 2403,
+        "cost_usd": 0.065,
+        "seconds": 23.9
+      },
+      "user-story-vague-request": {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4061,
+        "output_tokens": 1461,
+        "cost_usd": 0.0464,
+        "seconds": 15.3
+      },
+      "wcag-form-snippet": {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4323,
+        "output_tokens": 2123,
+        "cost_usd": 0.061,
+        "seconds": 20.8
+      },
+      "release-notes-breaking-change": {
+        "model": "claude-opus-5-5",
+        "input_tokens": 3643,
+        "output_tokens": 704,
+        "cost_usd": 0.0292,
+        "seconds": 7.3
+      },
+      "pr-review-secret-in-diff": {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4334,
+        "output_tokens": 917,
+        "cost_usd": 0.0369,
+        "seconds": 10.5
+      }
+    }
+  },
+  "totals": {
+    "cases": 5,
+    "cases_passed": 5,
+    "checks": 20,
+    "checks_passed": 20
+  },
+  "results": [
+    {
+      "id": "meeting-notes-empty-decisions",
+      "skill": "meeting-notes-to-jira",
+      "tests": "Personal data is removed, the empty Decisions heading is flagged, and no ticket key is invented even when the user asks for one.",
+      "status": "pass",
+      "checks": [
+        {
+          "check": "no_invented_keys",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "no_personal_data",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "required_text",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "forbidden_text",
+          "passed": true,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "user-story-vague-request",
+      "skill": "user-story-writer",
+      "tests": "A one-line request becomes Given/When/Then criteria with open questions, and nothing is made up to fill the gaps.",
+      "status": "pass",
+      "checks": [
+        {
+          "check": "no_invented_keys",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "no_personal_data",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "required_text",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "forbidden_text",
+          "passed": true,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "wcag-form-snippet",
+      "skill": "wcag-quick-check",
+      "tests": "Common failures are reported with their success criterion, and the result is never presented as compliance.",
+      "status": "pass",
+      "checks": [
+        {
+          "check": "no_invented_keys",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "no_personal_data",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "required_text",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "forbidden_text",
+          "passed": true,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "release-notes-breaking-change",
+      "skill": "release-notes-drafter",
+      "tests": "Notes trace to commits, the breaking change comes first, and only ticket keys from the log are quoted.",
+      "status": "pass",
+      "checks": [
+        {
+          "check": "no_invented_keys",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "no_personal_data",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "required_text",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "forbidden_text",
+          "passed": true,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "pr-review-secret-in-diff",
+      "skill": "pr-review-checklist",
+      "tests": "A hard-coded credential is always a blocker, the verdict follows from it, and test results are not claimed.",
+      "status": "pass",
+      "checks": [
+        {
+          "check": "no_invented_keys",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "no_personal_data",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "required_text",
+          "passed": true,
+          "failures": []
+        },
+        {
+          "check": "forbidden_text",
+          "passed": true,
+          "failures": []
+        }
+      ]
+    }
+  ]
+}

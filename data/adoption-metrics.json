@@ -1,0 +1,185 @@
+{
+  "schema": "adoption-metrics/v1",
+  "period": {
+    "start": "2026-10-05",
+    "end": "2026-11-13"
+  },
+  "assumptions": {
+    "currency": "GBP",
+    "input_rate_per_million_tokens": 3.0,
+    "output_rate_per_million_tokens": 15.0,
+    "note": "Estimated cost uses illustrative rates. Replace them with your contracted rates.",
+    "acceptance_rate": "accepted / all events; edited outputs are counted separately",
+    "cost_per_accepted": "estimated cost of all events / outputs accepted as-is"
+  },
+  "totals": {
+    "events": 522,
+    "rejected_rows": 0,
+    "active_users": 30,
+    "input_tokens": 2601460,
+    "output_tokens": 589722,
+    "estimated_cost": 16.65,
+    "cost_per_accepted": 0.058,
+    "acceptance_rate": 0.546,
+    "accepted_or_edited_rate": 0.849,
+    "skill_share": 0.738
+  },
+  "rejected_row_reasons": {},
+  "outcomes": {
+    "accepted": 285,
+    "edited": 158,
+    "rejected": 79
+  },
+  "tools": {
+    "claude-code": 340,
+    "chat-assistant": 182
+  },
+  "weekly_active_users": [
+    {
+      "week": "2026-W41",
+      "total": 8,
+      "by_team": {
+        "Platform": 1,
+        "Service Design": 2,
+        "Team Heron": 2,
+        "Team Kestrel": 3
+      }
+    },
+    {
+      "week": "2026-W42",
+      "total": 6,
+      "by_team": {
+        "Platform": 2,
+        "Service Design": 1,
+        "Team Heron": 0,
+        "Team Kestrel": 3
+      }
+    },
+    {
+      "week": "2026-W43",
+      "total": 12,
+      "by_team": {
+        "Platform": 3,
+        "Service Design": 3,
+        "Team Heron": 2,
+        "Team Kestrel": 4
+      }
+    },
+    {
+      "week": "2026-W44",
+      "total": 22,
+      "by_team": {
+        "Platform": 5,
+        "Service Design": 3,
+        "Team Heron": 5,
+        "Team Kestrel": 9
+      }
+    },
+    {
+      "week": "2026-W45",
+      "total": 22,
+      "by_team": {
+        "Platform": 4,
+        "Service Design": 2,
+        "Team Heron": 8,
+        "Team Kestrel": 8
+      }
+    },
+    {
+      "week": "2026-W46",
+      "total": 23,
+      "by_team": {
+        "Platform": 6,
+        "Service Design": 4,
+        "Team Heron": 5,
+        "Team Kestrel": 8
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team": "Platform",
+      "events": 117,
+      "active_users": 6,
+      "input_tokens": 595670,
+      "output_tokens": 134269,
+      "estimated_cost": 3.8,
+      "acceptance_rate": 0.453
+    },
+    {
+      "team": "Service Design",
+      "events": 79,
+      "active_users": 7,
+      "input_tokens": 373978,
+      "output_tokens": 95802,
+      "estimated_cost": 2.56,
+      "acceptance_rate": 0.608
+    },
+    {
+      "team": "Team Heron",
+      "events": 126,
+      "active_users": 8,
+      "input_tokens": 634622,
+      "output_tokens": 144430,
+      "estimated_cost": 4.07,
+      "acceptance_rate": 0.5
+    },
+    {
+      "team": "Team Kestrel",
+      "events": 200,
+      "active_users": 9,
+      "input_tokens": 997190,
+      "output_tokens": 215221,
+      "estimated_cost": 6.22,
+      "acceptance_rate": 0.605
+    }
+  ],
+  "top_skills": [
+    {
+      "skill": "user-story-writer",
+      "events": 119,
+      "users": 29,
+      "acceptance_rate": 0.605,
+      "estimated_cost": 3.67,
+      "cost_per_accepted": 0.051
+    },
+    {
+      "skill": "pr-review-checklist",
+      "events": 90,
+      "users": 27,
+      "acceptance_rate": 0.7,
+      "estimated_cost": 2.93,
+      "cost_per_accepted": 0.047
+    },
+    {
+      "skill": "meeting-notes-to-jira",
+      "events": 69,
+      "users": 27,
+      "acceptance_rate": 0.493,
+      "estimated_cost": 2.31,
+      "cost_per_accepted": 0.068
+    },
+    {
+      "skill": "wcag-quick-check",
+      "events": 63,
+      "users": 25,
+      "acceptance_rate": 0.635,
+      "estimated_cost": 2.16,
+      "cost_per_accepted": 0.054
+    },
+    {
+      "skill": "release-notes-drafter",
+      "events": 44,
+      "users": 23,
+      "acceptance_rate": 0.636,
+      "estimated_cost": 1.4,
+      "cost_per_accepted": 0.05
+    }
+  ],
+  "no_skill": {
+    "events": 137,
+    "acceptance_rate": 0.35,
+    "estimated_cost": 4.17,
+    "cost_per_accepted": 0.087
+  }
+}
